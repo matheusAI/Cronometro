@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", Sans-Serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #121215;
+}
+h1 {
+  text-align: center;
+  padding: 10px;
+  color: #ff1250;
+}
+.containers {
+  border: solid 5px #ffffff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+#timer {
+  color: #ffffff;
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: "Orbitron", Sans-Serif;
+  margin-bottom: 20px;
+}
+button {
+  width: 100px;
+  font-size: 1.5rem;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin: 0 5px;
+  appearance: none;
+  border: none;
+}
+button:active {
+  background: #474747;
+  color: #ffffff;
+}
